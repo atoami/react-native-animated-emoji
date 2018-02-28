@@ -26,3 +26,5 @@ import { AnimatedEmoji } from 'react-native-animated-emoji';
     onAnimationCompleted={this.onAnimationCompleted} // completion handler
 />
 ```
+
+![animated-emoji](https://user-images.githubusercontent.com/15665426/36794524-513109ea-1cec-11e8-898c-d0d17be4f079.gif)
