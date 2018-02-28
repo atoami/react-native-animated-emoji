@@ -1,5 +1,5 @@
-# react-native-animated-emoji
-Animated Floating Reactions like Facebook
+# Animated Floating Reactions
+Animated Floating Reactions like Facebook based on [node-emoji](https://github.com/omnidan/node-emoji).
 
 ### Installation
 
@@ -19,16 +19,12 @@ import { AnimatedEmoji } from 'react-native-animated-emoji';
 
 export const App = () => (
   <AnimatedEmoji
-    key={emoji.key}
-    index={emoji.key}
-    ref={ref => this._emojis[emoji.key] = ref}
-    style={{ bottom: emoji.yPosition }}
-    name={emoji.name}
-    size={emoji.size}
-    duration={emoji.duration}
-    onAnimationCompleted={this.onAnimationCompleted}
+    index={'emoji.key'} // index to identity emoji component
+    style={{ bottom: 200 }} // start bottom position
+    name={'sweat_smile'} // emoji name
+    size={30} // font size
+    duration={4000} // ms
+    onAnimationCompleted={this.onAnimationCompleted} // completion handler
   />
 )
 ```
-### Animated Floating Reactions
-![emoji]()
