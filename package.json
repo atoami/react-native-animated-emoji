@@ -1,0 +1,38 @@
+{
+  "name": "react-native-animated-emoji",
+  "version": "0.1.0",
+  "description": "Animated Floating Reactions like Facebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "animation",
+    "animated-emoji",
+    "emoji",
+    "simple",
+    "emoticons",
+    "emoticon",
+    "emojis",
+    "smiley",
+    "smileys",
+    "smilies",
+    "ideogram",
+    "ideograms"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bdavid68/react-native-animated-emoji.git"
+  },
+  "author": "David Bala <b.david6008@gmail.com>",
+  "peerDependencies": {
+    "react-native": ">=0.29"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "node-emoji": "^1.3.1"
+  }
+}
