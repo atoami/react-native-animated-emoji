@@ -25,9 +25,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bbdroid/react-native-animated-emoji.git"
+    "url": "git@github.com:atoami/react-native-animated-emoji.git"
   },
-  "author": "BBDroid <st.bbdroid@gmail.com>",
+  "author": "Ato",
   "peerDependencies": {
     "react-native": ">=0.29"
   },
