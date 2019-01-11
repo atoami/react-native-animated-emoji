@@ -10,7 +10,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.0-alpha.8af6728",
     "react-native": "^0.57.0",
-    "react-native-animated-emoji": "git+https://github.com/bdavid68/react-native-animated-emoji.git#master"
+    "react-native-animated-emoji": "git+https://github.com/atoami/react-native-animated-emoji.git#master"
   },
   "devDependencies": {
     "babel-jest": "^23.6.0",
